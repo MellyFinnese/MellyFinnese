@@ -5,7 +5,7 @@
 -<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Crypto;Self-taught+SecOps+dev+with+Drip;AI+x+Supply-chain+Security;I+know+how+it+breaks+so+I+can+keep+it+together" alt="Typing SVG" />
 +<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=900&lines=AI+x+Supply+Chain+Security;SBOM+Risk+Intelligence+%7C+Edge+Mindset;Firmware+%26+Systems+Lab;I+know+how+it+breaks+so+I+can+keep+it+together" alt="Typing SVG" />
  
--# 🃏 Crypto 🃏
+  🃏 Crypto 🃏
 -
 -**Self-taught SecOps dev · AI x supply-chain security · Low-level, failure-obsessed**
 -
