@@ -21,7 +21,7 @@
 
 ## ⚡ Snapshot x Signal
 
-    </td>
+    </tr>
     <td valign="top" width="55%">
 
 ### Current Pulse
