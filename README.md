@@ -3,7 +3,7 @@
 <!<!-- PROFILE HEADER -->
 <div align="center">
 
-# 👾 Crypto / Jordan Desjarlais
+# 👾 Crypto 
 
 **Self-taught SecOps dev · Low-level · AI x Security · Obsessed with how things fail**
 
