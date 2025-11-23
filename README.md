@@ -58,13 +58,6 @@
 
 </div>
 
-```bash
-# Run a scan
-ai-bom-inspector \
-  --sbom path/to/sbom.json \
-  --format cyclonedx \
-  --verbose
-```
 
 ### 🗂 Project Shelf (pin these on the profile)
 - 🧪 **AI-BOM Inspector** – AI x SBOM risk analysis & license inspection
