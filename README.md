@@ -19,10 +19,6 @@
 
 ---
 
-## ⚡ Snapshot x Signal
-
-        </td>
-    <td valign="top" width="55%">
 
 ### Current Pulse
 - 🎯 **Current focus:** `AI-BOM Inspector` – AI-powered SBOM risk & license scanner
