@@ -1,21 +1,21 @@
 <!-- PROFILE HEADER -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=Crypto+%2F+Jordan+Desjarlais;Refined+from+the+dark+side+of+security;AI+x+Supply-chain+Intelligence;I+know+how+it+breaks+because+I+made+it+break" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Crypto+%2F+Jordan+Desjarlais;Self-taught+SecOps+dev+with+antihero+energy;AI+x+Supply-chain+Security;I+know+how+it+breaks+so+I+can+keep+it+together" alt="Typing SVG" />
 
-# 🜏 Crypto / Jordan Desjarlais
+# 🃏 Crypto / Jordan Desjarlais
 
 **Self-taught SecOps dev · AI x supply-chain security · Low-level, failure-obsessed**
 
 <p align="center">
   <a href="https://github.com/MellyFinnese">
-    <img src="https://img.shields.io/badge/Origin-Shadow%20Ops-020617?style=for-the-badge&logo=torproject&logoColor=8b5cf6" />
+    <img src="https://img.shields.io/badge/Background-From%20chaos%20to%20control-020617?style=for-the-badge&logo=torproject&logoColor=38bdf8" />
   </a>
   <a href="https://github.com/MellyFinnese?tab=repositories">
     <img src="https://img.shields.io/badge/Focus-Supply--Chain%20Defense-111827?style=for-the-badge&logo=github" />
   </a>
   <img src="https://img.shields.io/badge/Mindset-Break%20%7C%20Understand%20%7C%20Fortify-4b5563?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Tilt-Dark%20Temptations%2C%20Disciplined-7c2d12?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Vibe-Antihero%20with%20guardrails-7c2d12?style=for-the-badge" />
 </p>
 
 ---
@@ -29,20 +29,20 @@
 
 ### ⚡ Snapshot
 
-- 🜲 **Current spell:** `AI-BOM Inspector` – AI-powered SBOM risk & license scanner  
-- 🕳 **Drawn to:** firmware, reverse engineering, obscure edge cases, failure paths  
+- 🎯 **Current focus:** `AI-BOM Inspector` – AI-powered SBOM risk & license scanner  
+- 🔎 **Drawn to:** firmware, reverse engineering, weird edge cases, failure paths  
 - 🧠 **Style:** think like the attacker, build like the defender  
-- 📡 **Open to:** collabs on security tooling, SBOM workflows, CI/CD security rituals  
+- 📡 **Open to:** collabs on security tooling, SBOM workflows, CI/CD security  
 
 > “Confidence turns to certainty when the foundation is made of experience.”
 
-I used to chase the exploit.  
-Now I weaponize that curiosity against the chaos instead of feeding it.
+I’ve seen the wrong side of security.  
+Now I use that perspective to build tools that make it harder to cross that line.
 
   </td>
   <td valign="top" width="45%">
 
-### 📊 Pulse in the Void
+### 📊 Quick Signal
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=MellyFinnese&show_icons=true&theme=tokyonight&hide_title=true" alt="GitHub Stats" />
@@ -56,9 +56,9 @@ Now I weaponize that curiosity against the chaos instead of feeding it.
 
 ---
 
-## 🧨 Flagship Relic – AI-BOM Inspector
+## 🧨 Flagship – AI-BOM Inspector
 
-> From raw SBOMs to **cold risk intel**: vulnerable dependencies, license traps, and what to fix before the darkness bites.
+> From raw SBOMs to **clear risk intel**: vulnerable dependencies, license traps, and what to fix first.
 
 <div align="center">
 
@@ -73,8 +73,147 @@ Now I weaponize that curiosity against the chaos instead of feeding it.
 </div>
 
 ```bash
-# Summon a scan from the shadows (example)
+# Run a scan
 ai-bom-inspector \
   --sbom path/to/sbom.json \
   --format cyclonedx \
   --verbose
+
+🗂 Project Shelf (The Ones That Matter)
+
+    Pinned work that actually represents what I do — not tutorial leftovers.
+
+    🧪 AI-BOM Inspector – AI x SBOM risk analysis & license inspection
+
+    🛰 Low-level / firmware lab – system internals, boot / OS experiments, failure hunting (pin your strongest)
+
+    ⚙️ Clean utility – smaller but fully documented tool with tests (shows discipline)
+
+    🧱 Security toolkit skeleton – template for future tools (optional)
+
+    💡 Pin these on your GitHub profile so they’re the first thing people see.
+
+🗺 AI-BOM Inspector – Flow from Code to Clarity
+
+graph TD;
+    A[SBOM: CycloneDX/SPDX] --> B[Parse & Normalize];
+    B --> C[Risk Engine];
+    B --> D[License Intel];
+    C --> E[Score: Critical · High · Medium · Low];
+    C --> F[Explain: CVEs · Maintenance · Exposure];
+    D --> G[Detect: License Conflicts · Copyleft Issues];
+    E --> H[CI/CD Gating];
+    F --> I[Reports];
+    G --> I;
+    H --> J[GitHub Action / Pipelines];
+
+Granular risk scoring (CVSS, maintenance, license risk, popularity, ecosystem health)
+
+Explain why each dependency is flagged (CVE, abandonware, license conflict)
+
+Optional remediation suggestions / safer alternatives
+
+GitHub Action to post risk intel directly on pull requests
+
+CI/CD mode to block builds above a configurable risk threshold
+
+    Lightweight dashboard / TUI for dependency health over time
+
+🧰 Skill Matrix
+<div align="center"> <img src="https://skillicons.dev/icons?i=python,rust,c,linux,docker,git,githubactions,vscode&perline=8" /> </div> <details> <summary><b>🧪 Languages</b></summary>
+
+    Python – security tooling, CLIs, end-to-end workflows
+
+    Rust – performance and safety when I need both
+
+    C – where the abstractions drop and the real behavior shows
+
+</details> <details> <summary><b>🛡 Security / Domain</b></summary>
+
+    SBOMs (CycloneDX / SPDX) and supply-chain analysis
+
+    Dependency intelligence: risk, licenses, maintenance, ecosystem signals
+
+    CI/CD security hooks, GitHub Actions, risk-based gating
+
+    Applying an attacker mindset to build stronger defenses
+
+</details> <details> <summary><b>⚙️ Ecosystem</b></summary>
+
+    Linux as the main lab
+
+    Docker for reproducible environments
+
+    GitHub Actions for continuous checks & automation
+
+    Issues / Discussions as live feedback loops
+
+</details>
+🧠 Philosophy – Edge, Not Villain
+
+    I don’t sanitize the story. I just choose where the line is now.
+
+    I care about how systems really fail, not just how they’re supposed to work.
+
+    I use that curiosity to build tools that reduce blast radius, not increase it.
+
+    I’d rather ship one tool that actually protects people than a dozen forgettable scripts.
+
+Antihero energy: aware of the dark, committed to pointing it in the right direction.
+📈 Recently Shipped
+
+    ✅ Initial release of AI-BOM Inspector CLI
+
+    ✅ SBOM parsing + base risk highlighting
+
+    ✅ First external review integrated into roadmap (scoring, explainability, integrations)
+
+    🔜 GitHub Action: auto-comment risk insights on PRs
+
+    🔜 CI/CD risk threshold mode: fail builds when the dependency tree gets sketchy
+
+🛰 Ops Log
+<details open> <summary><b>Timeline</b></summary>
+
+    2025-11 – AI-BOM Inspector tested by external users; workflow + feature ideas captured
+
+    2025-11 – GitHub profile refocused around AI x security, supply-chain defense, low-level work
+
+    2025-11 – Roadmap shaped: granular risk, explanations, remediation, GH Action, CI/CD
+
+    2025-12+ – Focus: integrations, more real SBOMs, polished UX for teams
+
+</details>
+📊 GitHub Pulse
+<div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=MellyFinnese&theme=tokyo-night" alt="Activity Graph" /> <br/><br/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MellyFinnese&layout=compact&theme=tokyonight" alt="Top Langs" /> </div>
+🧾 Project Hygiene Checklist
+
+    For repos you actually want security engineers, dev leads, and teams to trust:
+
+LICENSE – clear, explicit (MIT / Apache-2.0 / etc.)
+
+SECURITY.md – how to report issues responsibly
+
+CONTRIBUTING.md – how to open issues / PRs without wasting time
+
+CODE_OF_CONDUCT.md – standard, but shows you’re running a serious project
+
+    GitHub Actions workflow (tests / lint) + CI badge in README
+
+🤝 Collaborate
+
+If you’re working on:
+
+    Security tooling
+
+    SBOM workflows / supply-chain security
+
+    AI x SecOps
+
+and you want to pair antihero perspective with disciplined engineering, open an issue on one of my repos or start a discussion here:
+
+👉 AI-BOM Inspector Discussions
+<div align="center">
+
+🔗 <a href="https://mellyfinnese.github.io">mellyfinnese.github.io</a> — lab / landing (WIP)
+</div> ```
