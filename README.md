@@ -37,8 +37,7 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=MellyFinnese&theme=tokyonight" alt="GitHub Streak" />
 </p>
 
-    </td>
-    </tr>
+  
   </table>
 
 ---
