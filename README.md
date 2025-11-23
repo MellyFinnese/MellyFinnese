@@ -3,7 +3,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Crypto+%2F+Jordan+Desjarlais;Self-taught+SecOps+dev+with+antihero+energy;AI+x+Supply-chain+Security;I+know+how+it+breaks+so+I+can+keep+it+together" alt="Typing SVG" />
 
-# 🃏 Crypto / Jordan Desjarlais
+# 🃏 Crypto 🃏
 
 **Self-taught SecOps dev · AI x supply-chain security · Low-level, failure-obsessed**
 
