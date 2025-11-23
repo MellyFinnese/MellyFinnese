@@ -21,7 +21,7 @@
 
 ## ⚡ Snapshot x Signal
 
-    </tr>
+        </td>
     <td valign="top" width="55%">
 
 ### Current Pulse
@@ -32,7 +32,7 @@
 
 > I’ve seen the wrong side of security. Now I use that perspective to build tools that keep the blast radius small.
 
-    </td>
+        </td>
     <td valign="top" width="45%">
 
 ### Quick Signal
