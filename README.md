@@ -1,8 +1,3 @@
-diff --git a/README.md b/README.md
-index 8b137891791fe96927ad78e64b0aad7bded08bdc..8ab147053884a86bc9e42440fa12200355578f2b 100644
---- a/README.md
-+++ b/README.md
-@@ -1 +1,127 @@
 +<div align="center">
 +  <h1>Hey, I'm Melly or Crypto — AI x Supply Chain Security Engineer</h1>
 +  <p><em>Edge mindset, disciplined shipping. I build tools that explain risk instead of hiding it.</em></p>
