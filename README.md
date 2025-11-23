@@ -122,7 +122,6 @@ I break things to understand them, then build tools so others don't have to.
 
 ## 🧾 Project Hygiene (for serious eyes)
 
-> These are files you should consider adding to key repos like AI-BOM Inspector.
 
 - `LICENSE` – MIT / Apache-2.0 or whatever you choose  
 - `SECURITY.md` – how to report security issues  
