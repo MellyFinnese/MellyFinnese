@@ -8,7 +8,7 @@
 -# 🃏 Crypto 🃏
 -
 -**Self-taught SecOps dev · AI x supply-chain security · Low-level, failure-obsessed**
--# 🃏 Melly 🃏
+-
 +**SecOps builder · SBOM intelligence · Low-level, failure-obsessed**
  
  <p align="center">
