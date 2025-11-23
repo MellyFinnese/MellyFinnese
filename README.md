@@ -28,8 +28,7 @@
 
 > I’ve seen the wrong side of security. Now I use that perspective to build tools that keep the blast radius small.
 
-        </td>
-    <td valign="top" width="45%">
+     
 
 ### Quick Signal
 <p align="center">
