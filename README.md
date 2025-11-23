@@ -1,8 +1,4 @@
-diff --git a/README.md b/README.md
-index a6cf1086ac389fde893e5e4a798bd8ff3ab6539d..15e289d6038a5edfaa9dcdb99fdcb1529845295c 100644
---- a/README.md
-+++ b/README.md
-@@ -1,219 +1,206 @@
+
  <!-- PROFILE HEADER -->
  <div align="center">
  
