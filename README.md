@@ -59,7 +59,7 @@
 </div>
 
 
-### 🗂 Project Shelf (pin these on the profile)
+### 🗂 Project Shelf
 - 🧪 **AI-BOM Inspector** – AI x SBOM risk analysis & license inspection
 - 🛰 **Low-level / firmware lab** – system internals, boot/OS experiments, failure hunting
 - ⚙️ **Clean utility** – smaller but fully documented tool with tests (discipline over hype)
