@@ -123,7 +123,7 @@ graph TD;
 
 ---
 
-## 🧠 Philosophy – Edge, Not Villain
+## 🧠 Philosophy 
 - I don’t sanitize the story; I choose where the line is **now**.
 - I care about how systems really fail, not just how they’re supposed to work.
 - Curiosity fuels tools that **reduce** blast radius.
