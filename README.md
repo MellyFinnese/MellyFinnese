@@ -128,7 +128,7 @@ graph TD;
 - I care about how systems really fail, not just how they’re supposed to work.
 - Curiosity fuels tools that **reduce** blast radius.
 - I’d rather ship one tool that actually protects people than a dozen forgettable scripts.
-- Antihero energy: aware of the dark, committed to pointing it in the right direction.
+- Aware of the dark, committed to pointing it in the right direction.
 
 ---
 
@@ -164,25 +164,18 @@ graph TD;
 ---
 
 ## 🧾 Project Hygiene Checklist
-For repos you actually want security engineers, dev leads, and teams to trust:
 - LICENSE – clear, explicit (MIT / Apache-2.0 / etc.)
-- SECURITY.md – how to report issues responsibly
-- CONTRIBUTING.md – how to open issues / PRs without wasting time
-- CODE_OF_CONDUCT.md – standard, but shows you’re running a serious project
+- SECURITY.md – reported issues responsibly
+- CONTRIBUTING.md – open issues / PRs without wasting time
+- CODE_OF_CONDUCT.md – standard, but running a serious project
 - GitHub Actions workflow (tests / lint) + CI badge in README
 
 ---
 
 ## 🤝 Collaborate
-If you’re working on:
 - Security tooling
 - SBOM workflows / supply-chain security
 - AI x SecOps
 
-…pair antihero perspective with disciplined engineering. Open an issue on one of my repos or start a discussion here:
+…I paired attacker perspective with disciplined defensive engineering.
 
-👉 **AI-BOM Inspector Discussions**
-<div align="center">
-
-🔗 <a href="https://mellyfinnese.github.io">mellyfinnese.github.io</a> — lab / landing (WIP)
-</div>
