@@ -13,7 +13,7 @@
       <img src="https://img.shields.io/badge/Focus-Supply--Chain%20Defense-111827?style=for-the-badge&logo=github" />
     </a>
     <img src="https://img.shields.io/badge/Mindset-Break%20%7C%20Understand%20%7C%20Fortify-4b5563?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Vibe-Antihero%20with%20guardrails-7c2d12?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Vibe-Still%20learning%20everyday-7c2d12?style=for-the-badge" />
   </p>
 </div>
 
