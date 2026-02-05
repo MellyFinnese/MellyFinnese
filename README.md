@@ -2,7 +2,7 @@
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=900&lines=AI+x+Supply+Chain+Security;SBOM+Risk+Intelligence+%7C+Edge+Mindset;Firmware+%26+Systems+Lab;I+know+how+it+breaks+so+I+can+keep+it+together" alt="Typing SVG" />
 
-  🃏 Crypto 🃏
+  🃏 Crypto 🃏  
   **SecOps builder · SBOM intelligence · Low-level, failure-obsessed**
 
   <p align="center">
@@ -15,20 +15,26 @@
     <img src="https://img.shields.io/badge/Mindset-Break%20%7C%20Understand%20%7C%20Fortify-4b5563?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Vibe-Still%20learning%20everyday-7c2d12?style=for-the-badge" />
   </p>
+
+  <!-- Live counters -->
+  <p align="center">
+    <img src="https://readme-counter.vercel.app/api?username=MellyFinnese&label=SBOMs+Analyzed&color=38BDF8&background=111827&size=large" alt="SBOMs Analyzed" />
+    <img src="https://readme-counter.vercel.app/api?username=MellyFinnese&label=Risks+Detected&color=F87171&background=111827&size=large" alt="Risks Detected" />
+    <img src="https://readme-counter.vercel.app/api?username=MellyFinnese&label=Dependencies+Checked&color=34D399&background=111827&size=large" alt="Dependencies Checked" />
+  </p>
 </div>
 
 ---
 
-
 ### Current Pulse
-- 🎯 **Current focus:** `AI-BOM Inspector` – AI-powered SBOM risk & license scanner
-- 🔎 **Drawn to:** firmware, reverse engineering, weird edge cases, failure paths
-- 🧠 **Style:** think like the attacker, build like the defender
-- 📡 **Open to:** collabs on security tooling, SBOM workflows, CI/CD security
+- 🎯 **Current focus:** `AI-BOM Inspector` – AI-powered SBOM risk & license scanner  
+- 🔎 **Drawn to:** firmware, reverse engineering, edge-case chaos, failure hunting  
+- 🧠 **Style:** think like the attacker, build like the defender  
+- 📡 **Open to:** collabs on security tooling, SBOM workflows, CI/CD security  
 
-> I’ve seen the wrong side of security. Now I use that perspective to build tools that keep the blast radius small.
+> I’ve seen systems break. Now I build the tools that **keep the blast radius small**.
 
-     
+---
 
 ### Quick Signal
 <p align="center">
@@ -37,33 +43,29 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=MellyFinnese&theme=tokyonight" alt="GitHub Streak" />
 </p>
 
-  
-  </table>
-
 ---
 
 ## 🧨 Flagship – AI-BOM Inspector
-
-> From raw SBOMs to **clear risk intel**: vulnerable dependencies, license traps, and what to fix first.
+> From raw SBOMs to **clear risk intel**: vulnerable dependencies, license traps, and prioritized fixes.
 
 <div align="center">
 
 | 🔍 AI-BOM Inspector | Details |
 |---------------------|---------|
 | 🧾 **Input** | CycloneDX / SPDX SBOMs |
-| 🧠 **Output** | AI-ranked risk, reasoning, and prioritized recommendations (WIP) |
+| 🧠 **Output** | AI-ranked risk, reasoning, prioritized recommendations |
 | 🛡 **Use Case** | Supply-chain security, SecOps, CI/CD gating |
 | 🧩 **Roadmap** | GitHub Action · CI/CD blocking · dashboard |
 | 📂 **Repo** | 👉 <a href="https://github.com/MellyFinnese/AI-BOM-Inspector">AI-BOM-Inspector</a> |
 
 </div>
 
+---
 
-### 🗂 Project Shelf
-- 🧪 **AI-BOM Inspector** – AI x SBOM risk analysis & license inspection
-- 🛰 **Low-level / firmware lab** – system internals, boot/OS experiments, failure hunting
-- ⚙️ **Clean utility** – smaller but fully documented tool with tests (discipline over hype)
-- 🧱 **Security toolkit skeleton** – reusable template for future tools
+### Live Workflow Dashboard
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2000&pause=800&color=34D399&center=true&vCenter=true&width=800&lines=Parsing+SBOMs...;Detecting+risks...;Ranking+threats...;Recommending+fixes..." alt="Workflow Animation" />
+</p>
 
 ### 🗺 AI-BOM Inspector – Flow from Code to Clarity
 ```mermaid
@@ -78,104 +80,45 @@ graph TD;
     F --> I[Reports];
     G --> I;
     H --> J[GitHub Action / Pipelines];
-```
 
-- Granular risk scoring (CVSS, maintenance, license risk, popularity, ecosystem health)
-- Explain every flag (CVE, abandonware, license conflict)
-- Remediation ideas and safer alternatives (where it matters)
-- GitHub Action to post risk intel directly on pull requests
-- CI/CD mode to block builds above a configurable risk threshold
-- Lightweight dashboard / TUI for dependency health over time
 
----
 
-## 🧰 Skill Matrix
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,rust,c,linux,docker,git,githubactions,vscode&perline=8" />
-</div>
+    Granular scoring (CVSS, maintenance, license risk, popularity, ecosystem health)
 
-<details>
-<summary><b>🧪 Languages</b></summary>
+    Explain every flag (CVE, abandonware, license conflict)
 
-- Python – security tooling, CLIs, end-to-end workflows
-- Rust – performance and safety when I need both
-- C – where abstractions drop and the real behavior shows
+    Remediation ideas & safer alternatives
 
-</details>
-<details>
-<summary><b>🛡 Security / Domain</b></summary>
+    GitHub Action posts risk intel directly on PRs
 
-- SBOMs (CycloneDX / SPDX) and supply-chain analysis
-- Dependency intelligence: risk, licenses, maintenance, ecosystem signals
-- CI/CD security hooks, GitHub Actions, risk-based gating
-- Applying an attacker mindset to build stronger defenses
+    CI/CD mode blocks builds above configurable risk thresholds
 
-</details>
-<details>
-<summary><b>⚙️ Ecosystem</b></summary>
+    Lightweight dashboard / TUI tracks dependency health over time
 
-- Linux as the main lab
-- Docker for reproducible environments
-- GitHub Actions for continuous checks & automation
-- Issues / Discussions as live feedback loops
+🧰 Skill Matrix
+<div align="center"> <img src="https://skillicons.dev/icons?i=python,rust,c,linux,docker,git,githubactions,vscode&perline=8" /> </div>
 
-</details>
+🎆 Philosophy & Legacy Vibe
 
----
+I don’t sanitize the story; I choose the line of defense
 
-## 🧠 Philosophy 
-- I don’t sanitize the story; I choose where the line is **now**.
-- I care about how systems really fail, not just how they’re supposed to work.
-- Curiosity fuels tools that **reduce** blast radius.
-- I’d rather ship one tool that actually protects people than a dozen forgettable scripts.
-- Aware of the dark, committed to pointing it in the right direction.
+Curiosity fuels tools that reduce real-world blast radius
 
----
+I ship one tool that matters, not dozens of forgettable scripts
 
-## 📈 Recently Shipped
-- ✅ Initial release of **AI-BOM Inspector** CLI
-- ✅ SBOM parsing + base risk highlighting
-- ✅ First external review integrated into roadmap (scoring, explainability, integrations)
-- 🔜 GitHub Action: auto-comment risk insights on PRs
-- 🔜 CI/CD risk threshold mode: fail builds when the dependency tree gets sketchy
+Aware of the dark, committed to pointing it right
 
----
+📈 Recently Shipped
 
-## 🛰 Ops Log
-<details open>
-<summary><b>Timeline</b></summary>
+✅ Initial release of AI-BOM Inspector CLI
 
-- 2025-11 – AI-BOM Inspector tested by external users; workflow + feature ideas captured
-- 2025-11 – GitHub profile refocused around AI x security, supply-chain defense, low-level work
-- 2025-11 – Roadmap shaped: granular risk, explanations, remediation, GH Action, CI/CD
-- 2025-12+ – Focus: integrations, more real SBOMs, polished UX for teams
+✅ SBOM parsing + base risk highlighting
 
-</details>
+✅ External review integrated: scoring, explainability, roadmap
 
----
+🔜 GitHub Action: auto-comment risk insights on PRs
 
-## 📊 GitHub Pulse
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MellyFinnese&theme=tokyo-night" alt="Activity Graph" />
-  <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MellyFinnese&layout=compact&theme=tokyonight" alt="Top Langs" />
-</div>
+🔜 CI/CD risk threshold mode: fail risky builds
 
----
-
-## 🧾 Project Hygiene Checklist
-- LICENSE – clear, explicit (MIT / Apache-2.0 / etc.)
-- SECURITY.md – reported issues responsibly
-- CONTRIBUTING.md – open issues / PRs without wasting time
-- CODE_OF_CONDUCT.md – standard, but running a serious project
-- GitHub Actions workflow (tests / lint) + CI badge in README
-
----
-
-## 🤝 Collaborate
-- Security tooling
-- SBOM workflows / supply-chain security
-- AI x SecOps
-
-…I paired attacker perspective with disciplined defensive engineering.
-
+📊 GitHub Pulse
+<div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=MellyFinnese&theme=tokyo-night" alt="Activity Graph" /> <br/><br/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MellyFinnese&layout=compact&theme=tokyonight" alt="Top Langs" /> </div> ```
