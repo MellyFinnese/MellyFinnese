@@ -52,7 +52,7 @@
 
 <div align="center">
 
-| 🔍 AI-BOM Inspector | Details |
+| 🔍 Enterprise AI-BOM Inspector | Details |
 |---------------------|---------|
 | 🧾 **Input** | AI project repos, model assets, runtime configs |
 | 🧠 **Output** | Structured AI-BOMs, dependency maps, governance-ready intel |
@@ -81,7 +81,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=1700&pause=600&color=34D399&center=true&vCenter=true&width=800&lines=Inspecting+AI+stacks...;Mapping+models+%26+runtimes...;Generating+AI-BOMs...;Shipping+audit+intel..." alt="Workflow Animation" />
 </p>
 
-### 🗺 AI-BOM Inspector – Flow from Code to Clarity
+### 🗺 Enterprise AI-BOM Inspector – Flow from Code to Clarity
 ```mermaid
 graph TD;
     A[AI Project] --> B[Inspect Models & Runtimes];
