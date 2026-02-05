@@ -2,8 +2,10 @@
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=900&lines=AI+x+Supply+Chain+Security;SBOM+Risk+Intelligence+%7C+Edge+Mindset;Firmware+%26+Systems+Lab;I+know+how+it+breaks+so+I+can+keep+it+together" alt="Typing SVG" />
 
-  🃏 Crypto 🃏  
-  **SecOps builder · SBOM intelligence · Low-level, failure-obsessed**
+  <p>
+    🃏 Crypto 🃏<br />
+    <strong>SecOps builder · SBOM intelligence · Low-level, failure-obsessed</strong>
+  </p>
 
   <p align="center">
     <a href="https://github.com/MellyFinnese">
@@ -26,17 +28,17 @@
 
 ---
 
-### Current Pulse
-- 🎯 **Current focus:** `AI-BOM Inspector` – AI-powered SBOM risk & license scanner  
-- 🔎 **Drawn to:** firmware, reverse engineering, edge-case chaos, failure hunting  
-- 🧠 **Style:** think like the attacker, build like the defender  
-- 📡 **Open to:** collabs on security tooling, SBOM workflows, CI/CD security  
+## ⚡ Current Pulse
+- 🎯 **Current focus:** `AI-BOM Inspector` – AI-powered SBOM risk & license scanner
+- 🔎 **Drawn to:** firmware, reverse engineering, edge-case chaos, failure hunting
+- 🧠 **Style:** think like the attacker, build like the defender
+- 📡 **Open to:** collabs on security tooling, SBOM workflows, CI/CD security
 
 > I’ve seen systems break. Now I build the tools that **keep the blast radius small**.
 
 ---
 
-### Quick Signal
+## 📡 Quick Signal
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=MellyFinnese&show_icons=true&theme=tokyonight&hide_title=true" alt="GitHub Stats" />
   <br/>
@@ -62,7 +64,7 @@
 
 ---
 
-### Live Workflow Dashboard
+## 🛰 Live Workflow Dashboard
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2000&pause=800&color=34D399&center=true&vCenter=true&width=800&lines=Parsing+SBOMs...;Detecting+risks...;Ranking+threats...;Recommending+fixes..." alt="Workflow Animation" />
 </p>
@@ -80,45 +82,45 @@ graph TD;
     F --> I[Reports];
     G --> I;
     H --> J[GitHub Action / Pipelines];
+```
 
+**What the engine ships:**
+- Granular scoring (CVSS, maintenance, license risk, popularity, ecosystem health)
+- Explain every flag (CVE, abandonware, license conflict)
+- Remediation ideas & safer alternatives
+- GitHub Action posts risk intel directly on PRs
+- CI/CD mode blocks builds above configurable risk thresholds
+- Lightweight dashboard / TUI tracks dependency health over time
 
+---
 
-    Granular scoring (CVSS, maintenance, license risk, popularity, ecosystem health)
+## 🧰 Skill Matrix
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,rust,c,linux,docker,git,githubactions,vscode&perline=8" />
+</div>
 
-    Explain every flag (CVE, abandonware, license conflict)
+---
 
-    Remediation ideas & safer alternatives
+## 🎆 Philosophy & Legacy Vibe
+- I don’t sanitize the story; I choose the line of defense
+- Curiosity fuels tools that reduce real-world blast radius
+- I ship one tool that matters, not dozens of forgettable scripts
+- Aware of the dark, committed to pointing it right
 
-    GitHub Action posts risk intel directly on PRs
+---
 
-    CI/CD mode blocks builds above configurable risk thresholds
+## 📈 Recently Shipped
+- ✅ Initial release of AI-BOM Inspector CLI
+- ✅ SBOM parsing + base risk highlighting
+- ✅ External review integrated: scoring, explainability, roadmap
+- 🔜 GitHub Action: auto-comment risk insights on PRs
+- 🔜 CI/CD risk threshold mode: fail risky builds
 
-    Lightweight dashboard / TUI tracks dependency health over time
+---
 
-🧰 Skill Matrix
-<div align="center"> <img src="https://skillicons.dev/icons?i=python,rust,c,linux,docker,git,githubactions,vscode&perline=8" /> </div>
-
-🎆 Philosophy & Legacy Vibe
-
-I don’t sanitize the story; I choose the line of defense
-
-Curiosity fuels tools that reduce real-world blast radius
-
-I ship one tool that matters, not dozens of forgettable scripts
-
-Aware of the dark, committed to pointing it right
-
-📈 Recently Shipped
-
-✅ Initial release of AI-BOM Inspector CLI
-
-✅ SBOM parsing + base risk highlighting
-
-✅ External review integrated: scoring, explainability, roadmap
-
-🔜 GitHub Action: auto-comment risk insights on PRs
-
-🔜 CI/CD risk threshold mode: fail risky builds
-
-📊 GitHub Pulse
-<div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=MellyFinnese&theme=tokyo-night" alt="Activity Graph" /> <br/><br/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MellyFinnese&layout=compact&theme=tokyonight" alt="Top Langs" /> </div> ```
+## 📊 GitHub Pulse
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MellyFinnese&theme=tokyo-night" alt="Activity Graph" />
+  <br/><br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MellyFinnese&layout=compact&theme=tokyonight" alt="Top Langs" />
+</div>
