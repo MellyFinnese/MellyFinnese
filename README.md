@@ -1,91 +1,105 @@
-<!-- PROFILE HEADER -->
+<!-- COOL HEADER -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=2200&pause=600&color=38BDF8&center=true&vCenter=true&width=900&lines=AI-BOM+Inspector;Enterprise+AI+Supply+Chain+Visibility;Introspect+models+%7C+Map+artifacts+%7C+Ship+audit+evidence" alt="Typing SVG" />
+  <pre style="font-family:monospace;line-height:0.85"> 
+   █████╗ ██╗ ██████╗     ██████╗  ____   ____  __  __  
+  ██╔══██╗██║██╔════╝    ██╔═══██╗|  _ \ / __ \|  \/  | 
+  ███████║██║██║  ███╗   ██║   ██║| |_) | |  | | \  / | 
+  ██╔══██║██║██║   ██║   ██║   ██║|  _ <| |  | | |\/| | 
+  ██║  ██║██║╚██████╔╝   ╚██████╔╝| |_) | |__| | |  | | 
+  ╚═╝  ╚═╝╚═╝ ╚═════╝     ╚═════╝ |____/ \____/|_|  |_| 
+  </pre>
+
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=2200&pause=600&color=7c3aed&center=true&vCenter=true&width=900&lines=AI-BOM+Inspector;Peek+inside+models+%7C+Map+artifacts+%7C+Ship+audit+evidence" alt="Typing SVG" />
 
   <p>
-    🧭 AI supply-chain visibility · Governance-ready AI-BOMs · Audit-first
+    <strong>Neon AI supply-chain visibility · Governance-ready AI-BOMs · Audit-first</strong>
   </p>
 
-  <p align="center">
-    <a href="https://github.com/MellyFinnese/AI-BOM-Inspector">
-      <img src="https://img.shields.io/badge/Repo-AI--BOM--Inspector-111827?style=for-the-badge&logo=github" />
-    </a>
-    <img src="https://img.shields.io/badge/Focus-Governance%20%7C%20Security-38BDF8?style=for-the-badge" />
+  <p>
+    <a href="https://github.com/MellyFinnese/AI-BOM-Inspector"><img src="https://img.shields.io/badge/Repo-AI--BOM--Inspector-111827?style=for-the-badge&logo=github" /></a>
     <img src="https://img.shields.io/badge/Status-Alpha-F97316?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Coolness-∞-8B5CF6?style=for-the-badge" />
   </p>
+
 </div>
 
 ---
 
-# AI-BOM Inspector
+# AI-BOM Inspector — The Neon Lens for AI Stacks
 
-Enterprise-grade AI supply-chain visibility: inspect model artifacts, runtimes, configs, and transitive dependencies to produce governance-ready AI-BOMs and audit evidence.
+AI systems hide models, weights, toolchains, and transitive artifacts. AI-BOM Inspector inspects AI codebases, extracts model/runtimes/artifacts, maps dependency graphs, and emits governance-ready AI-BOMs and audit evidence.
 
-Quick link: https://github.com/MellyFinnese/AI-BOM-Inspector
-
----
-
-## Why this matters
-
-AI systems bundle models, weights, runtimes, datasets, and toolchains. AI-BOM Inspector turns that complexity into structured, provable inventories so security, compliance, and platform teams can act.
-
-- Map models → runtimes → artifacts
-- Surface hidden transitive dependencies
-- Produce exportable AI-BOMs for audits
-- Automation-friendly outputs for CI/CD
+> Inspect. Explain. Prove. Ship.
 
 ---
 
-## Quick start
-
-Prerequisites: Python 3.10+, Docker (optional), git
-
-Clone:
+## Quick demo (one-liner)
 
 ```bash
-git clone https://github.com/MellyFinnese/AI-BOM-Inspector.git
-cd AI-BOM-Inspector
+# Inspect a local repo and write an AI-BOM (JSON-LD ready)
+python -m ai_bom_inspector.scan --source ./my-ai-project --output ai-bom.json --format jsonld
 ```
 
-Run a local inspection (example):
+---
 
-```bash
-# inspect a local project or repo URL
-python -m ai_bom_inspector.scan --source ./path/to/project --output ai-bom.json
+## Flashy snapshot
+
+<p align="center">
+  <img src="https://readme-counter.vercel.app/api?username=MellyFinnese&label=AI-BOMs+Created&color=7c3aed&background=0f172a&size=large" alt="AI-BOMs Created" />
+  <img src="https://img.shields.io/badge/Models+Seen-✨-FDE047?style=for-the-badge" />
+</p>
+
+---
+
+## What it does (tl;dr)
+
+- Introspects models, frameworks, runtimes, weights, and configs
+- Maps direct and transitive dependencies into relationship graphs
+- Produces AI-BOMs (JSON / JSON-LD) and artifact evidence bundles
+- Integrates with CI to block unsafe model deployment
+
+---
+
+## Fancy example AI-BOM fragment
+
+```json
+{
+  "aiBomVersion": "0.1",
+  "components": [
+    { "id": "model:resnet50:1.0", "type": "Model", "framework": "pytorch" },
+    { "id": "runtime:python:3.10", "type": "Runtime" }
+  ],
+  "relationships": [
+    { "from": "model:resnet50:1.0", "to": "runtime:python:3.10", "type": "runsOn" }
+  ]
+}
 ```
 
-See /docs for full usage, CI examples, and exporters.
+---
+
+## Built for
+
+Security teams, compliance reviewers, platform engineers, and release managers who need concrete, auditable inventories of AI assets before approving deployment.
 
 ---
 
-## Highlights
+## Integrate into CI
 
-- Model & runtime introspection (frameworks, weights, config)
-- Dependency & artifact mapping across AI stacks
-- Governance-ready AI-BOM JSON/JSON-LD export
-- CI/CD friendly: fail-fast checks, artifact evidence bundles
-- Integrations: policy engines, dashboards, and audit pipelines
+Add a step that runs the scanner and fails the build if high-risk transitive artifacts are found:
 
----
-
-## Examples
-
-- Inspect a repo and generate an AI-BOM
-- Integrate inspection into CI to gate model deployment
-- Export human- and machine-readable audit evidence for compliance
+```yaml
+- name: Run AI-BOM inspection
+  run: |
+    python -m ai_bom_inspector.scan --source . --output ai-bom.json
+    python -m ai_bom_inspector.policy --input ai-bom.json --policy rules/policy.yml
+```
 
 ---
 
-## Contribute
+## Contributors
 
-Features, bug reports, and audit playbooks welcome. Open issues and PRs in the main repo. Prefer small, test-covered changes.
-
----
-
-## License
-
-MIT — see LICENSE for details.
+This repo is powered by curious humans and caffeine. Open issues, send PRs, or drop a short example repo for testing.
 
 ---
 
-<p align="center">Built by <a href="https://github.com/MellyFinnese">MellyFinnese</a> · AI supply-chain obsessed 🔍</p>
+<p align="center">Made with neon vibes by <a href="https://github.com/MellyFinnese">MellyFinnese</a> · AI supply-chain obsessed 🔍</p>
