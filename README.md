@@ -1,3 +1,37 @@
+<!-- PROFILE HEADER -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=2100&pause=600&color=38BDF8&center=true&vCenter=true&width=900&lines=AI-BOM+Inspector;Enterprise+AI+Supply+Chain+Visibility;AI+BOM+Introspection+%7C+Governance+Ready;I+know+how+it+breaks+so+I+can+keep+it+together" alt="Typing SVG" />
+
+  <p>
+    🃏 Crypto 🃏<br />
+    <strong>AI supply chain visibility · Governance-ready AI-BOMs · Failure-obsessed</strong>
+  </p>
+
+  <p align="center">
+    <a href="https://github.com/MellyFinnese">
+      <img src="https://img.shields.io/badge/Background-From%20chaos%20to%20control-020617?style=for-the-badge&logo=torproject&logoColor=38bdf8" />
+    </a>
+    <a href="https://github.com/MellyFinnese?tab=repositories">
+    <img src="https://img.shields.io/badge/Focus-AI%20Supply%20Chain%20Visibility-111827?style=for-the-badge&logo=github" />
+    </a>
+    <img src="https://img.shields.io/badge/Mindset-Break%20%7C%20Understand%20%7C%20Fortify-4b5563?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Vibe-Still%20learning%20everyday-7c2d12?style=for-the-badge" />
+  </p>
+
+  <!-- Live counters -->
+  <p align="center">
+    <img src="https://readme-counter.vercel.app/api?username=MellyFinnese&label=SBOMs+Analyzed&color=38BDF8&background=111827&size=large" alt="SBOMs Analyzed" />
+    <img src="https://readme-counter.vercel.app/api?username=MellyFinnese&label=Risks+Detected&color=F87171&background=111827&size=large" alt="Risks Detected" />
+    <img src="https://readme-counter.vercel.app/api?username=MellyFinnese&label=Dependencies+Checked&color=34D399&background=111827&size=large" alt="Dependencies Checked" />
+  </p>
+</div>
+
+<div align="center">
+  <p>
+    This README uses the "PROFILE HEADER" HTML block above for its flashy header. The same snippet is included in the repo source and can be copied into other READMEs or project landing pages to match this style.
+  </p>
+</div>
+
 <!-- NEON AI-BOM HEADER -->
 <div align="center">
   <pre style="font-family:monospace;line-height:0.85"> 
