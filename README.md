@@ -9,9 +9,10 @@
   <img src="https://img.shields.io/badge/SECURITY-ENGINEERING-DC2626?style=for-the-badge" />
   <img src="https://img.shields.io/badge/AI-SUPPLY%20CHAIN-7C3AED?style=for-the-badge" />
   <img src="https://img.shields.io/badge/OFFLINE--FIRST-0F766E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PRODUCTION-HARDENING-0F172A?style=for-the-badge" />
 </p>
 
-<p><strong>I build security systems around problems that are still poorly modeled.</strong><br/>My current focus is AI supply-chain security, evidence, provenance, graph reasoning, and change-aware impact analysis.</p>
+<p><strong>I build security systems around problems that are still poorly modeled.</strong><br/>My current focus is AI supply-chain security, evidence, provenance, graph reasoning, impact analysis, and production hardening.</p>
 
 </div>
 
@@ -19,14 +20,21 @@
 
 ## Validation, Not Just Claims
 
-My flagship project is currently backed by:
+My flagship project is developed around measurable security engineering rather than feature-count marketing.
 
 ```text
-152 tests passed
-1 skipped
-0 failed
+Deterministic scoring
+Evidence-backed findings
+Reproducible benchmarks
+Adversarial regression coverage
+Cross-platform CI
+Production-runtime hardening
+Enterprise security primitives
+```
 
-JavaScript / TypeScript benchmark
+The JavaScript/TypeScript benchmark currently reports:
+
+```text
 30 labeled cases
 Precision: 93.94%
 Recall:    95.38%
@@ -62,42 +70,41 @@ Behavioral drift
         ↓
 Blast-radius context
         ↓
-CI / policy enforcement
+Policy enforcement
         ↓
 Graph investigation
+        ↓
+Production hardening
 ```
 
 The core remains deterministic and offline-first. Graph infrastructure provides context and investigation rather than silently replacing the risk engine's source of truth.
 
-### The security object I'm pushing hardest
+### Production hardening now includes
 
 ```text
-HTTP Input
-    ↓
-Prompt
-    ↓
-Agent
-    ↓
-Tool
-    ↓
-Privileged Operation
+Multi-GB artifact handling
+Concurrent bounded scanning
+Incremental checkpoints
+Crash recovery
+Timeouts + resource budgets
+CPU / memory profiling
+Deterministic evidence output
+Relationship-scale storage
+Cryptographic provenance
+Tamper-evident audit logs
+RBAC + tenant isolation
+OIDC / SAML primitives
+SCIM lifecycle controls
+MFA enforcement
+Vault / KMS adapters
+Short-lived credential policy
+Network ingress / egress controls
+Audit export + retention
+Cross-platform compatibility CI
+Fuzzing + scale benchmark infrastructure
 ```
 
-A change can then be evaluated as:
-
-```text
-Did the reachable graph change?
-        ↓
-Did a new impact path appear?
-        ↓
-What evidence supports it?
-        ↓
-What AI assets are downstream?
-        ↓
-Should CI block the change?
-```
-
-That is the direction I'm taking the project: **from inventory toward AI-system impact intelligence.**
+The enterprise controls are intentionally split between reusable security primitives and deployment-specific configuration. Provider accounts, certificates, IdP settings, secret permissions, and production infrastructure remain external configuration rather than hard-coded claims.
 
 ---
 
@@ -113,9 +120,11 @@ That is the direction I'm taking the project: **from inventory toward AI-system 
 
 **Graph is context, not magic.** Traversal should explain and enrich decisions, not become an opaque scoring system.
 
-**Attack the assumptions.** Adversarial cases, regression tests, and negative benchmarks are part of the engineering loop.
+**Attack the assumptions.** Adversarial cases, regression tests, fuzzing, and negative benchmarks are part of the engineering loop.
 
 **Offline-first.** The default security path should not require shipping sensitive source code or metadata to a hosted model.
+
+**Production boundaries matter.** A security primitive is not the same thing as a deployed enterprise service. The project documents that distinction explicitly.
 
 ---
 
@@ -126,7 +135,10 @@ Languages       Python · Rust · JavaScript · TypeScript
 Security        AI security · Supply-chain security · SBOM/AIBOM
 Analysis        Static analysis · risk modeling · attack paths · behavioral drift
 Data            CycloneDX · SPDX · provenance · evidence · attestations
-Graph           Memgraph · backend-neutral graph abstractions
+Graph           Memgraph · backend-neutral graph abstractions · relationship stores
+Identity        OIDC · SAML · SCIM · MFA · RBAC · tenant isolation
+Secrets         Vault · KMS · credential rotation · short-lived credential policy
+Operations      concurrency · checkpoints · profiling · fuzzing · CI compatibility
 Engineering     CLI tooling · CI enforcement · regression testing · benchmarking
 ```
 
@@ -148,6 +160,8 @@ Add regression coverage
 Fix the underlying design
   ↓
 Benchmark again
+  ↓
+Document the boundary
 ```
 
 The important part is the loop, not the tool used to accelerate it.
@@ -193,6 +207,8 @@ What became reachable?
 What is affected?
 Why?
 Can the result be reproduced?
+Can the evidence be verified?
+Can an enterprise operate the control safely?
 ```
 
 ---
@@ -201,9 +217,12 @@ Can the result be reproduced?
 
 <p align="center">
   <a href="https://github.com/MellyFinnese/AI-BOM-Inspector"><img src="https://img.shields.io/badge/EXPLORE-AI--BOM%20INSPECTOR-7C3AED?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/MellyFinnese/AI-BOM-Inspector/pulls"><img src="https://img.shields.io/badge/ARCHITECTURE-PRs-111827?style=for-the-badge&logo=github" /></a>
 </p>
 
-**AI-BOM Inspector** is the canonical home for the project, its implementation history, architecture, benchmarks, experiments, and security validation.
+**AI-BOM Inspector** is the canonical home for the project's implementation history, architecture, benchmarks, experiments, security validation, and production-hardening work.
+
+Recent hardening work includes deterministic scoring, scalable artifact scanning, crash recovery, provenance verification, enterprise identity/security primitives, network policy enforcement, and audit lifecycle controls.
 
 ---
 
