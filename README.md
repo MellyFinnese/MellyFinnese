@@ -1,94 +1,129 @@
 <div align="center">
 
-# AI-BOM Inspector
+<pre>
+ █████╗ ██╗    ██████╗  ██████╗ ███╗   ███╗
+██╔══██╗██║    ██╔══██╗██╔═══██╗████╗ ████║
+███████║██║    ██████╔╝██║   ██║██╔████╔██║
+██╔══██║██║    ██╔══██╗██║   ██║██║╚██╔╝██║
+██║  ██║██║    ██████╔╝╚██████╔╝██║ ╚═╝ ██║
+╚═╝  ╚═╝╚═╝    ╚═════╝  ╚═════╝ ╚═╝     ╚═╝
 
-### Deterministic security analysis for the AI supply chain.
+ ██████╗ ███╗   ██╗███████╗██████╗ ███████╗ ██████╗████████╗ ██████╗ ██████╗
+██╔═══██╗████╗  ██║██╔════╝██╔══██╗██╔════╝██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗
+██║   ██║██╔██╗ ██║█████╗  ██████╔╝█████╗  ██║        ██║   ██║   ██║██████╔╝
+██║   ██║██║╚██╗██║██╔══╝  ██╔══██╗██╔══╝  ██║        ██║   ██║   ██║██╔══██╗
+╚██████╔╝██║ ╚████║███████╗██║  ██║███████╗╚██████╗   ██║   ╚██████╔╝██║  ██║
+ ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚══════╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
+</pre>
 
-<a href="https://github.com/MellyFinnese/AI-BOM-Inspector">
-  <img src="https://img.shields.io/badge/Explore-AI--BOM--Inspector-111827?style=for-the-badge&logo=github" alt="AI-BOM Inspector" />
-</a>
-<img src="https://img.shields.io/badge/AI%20Supply%20Chain-Security-7c3aed?style=for-the-badge" alt="AI Supply Chain Security" />
-<img src="https://img.shields.io/badge/Architecture-Offline--First-0f766e?style=for-the-badge" alt="Offline First" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=26&duration=2200&pause=700&color=7C3AED&center=true&vCenter=true&width=900&lines=AI+Supply-Chain+Security;Inspect+Models+%7C+Map+Risk+%7C+Prove+Impact;Deterministic+%7C+Explainable+%7C+Enforceable" alt="AI-BOM Inspector" />
+
+<p>
+  <a href="https://github.com/MellyFinnese/AI-BOM-Inspector"><img src="https://img.shields.io/badge/PROJECT-AI--BOM%20INSPECTOR-111827?style=for-the-badge&logo=github" /></a>
+  <img src="https://img.shields.io/badge/AI-SUPPLY%20CHAIN-7C3AED?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SECURITY-ENGINEERING-DC2626?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OFFLINE--FIRST-0F766E?style=for-the-badge" />
+</p>
+
+<p><strong>Not another SBOM viewer.</strong><br/>AI-BOM Inspector is built to turn AI supply-chain evidence into decisions.</p>
 
 </div>
 
 ---
 
-## What is AI-BOM Inspector?
+# ⚡ AI-BOM Inspector
 
-**AI-BOM Inspector** is an offline-first security engineering platform for analyzing the software, models, artifacts, and relationships that make up modern AI systems.
+> **Inspect. Explain. Prove. Enforce.**
 
-Traditional SBOM tooling can tell you **what components exist**. AI-BOM Inspector is designed to answer the harder questions:
+AI-BOM Inspector is an **offline-first, deterministic security engineering platform** for analyzing the software, models, artifacts, dependencies, and relationships that make up modern AI systems.
 
-- What AI assets are actually present?
-- What evidence indicates that something is risky?
-- Which models, packages, applications, and owners are affected?
-- How far can a vulnerability propagate through the AI supply chain?
-- Should a build be allowed, warned on, or blocked?
-- Can the decision be reproduced and explained later?
+Traditional SBOM tooling tells you what exists.
 
-The project is built around one principle:
-
-> **AI security decisions should be traceable, reproducible, testable, and enforceable.**
-
----
-
-## The architecture
+AI-BOM Inspector asks what matters next:
 
 ```text
-        AI Project
-            │
-            ├── SBOMs / manifests
-            ├── Models / artifacts
-            └── Metadata
-                    │
-                    ▼
-          Discovery + Normalization
-                    │
-                    ▼
-            Evidence + Context
-                    │
-                    ▼
-        ┌─────────────────────────┐
-        │ Deterministic Risk     │
-        │ Engine                  │
-        └─────────────────────────┘
-                    │
-                    ▼
-              Policy Engine
-                    │
-          ┌─────────┴─────────┐
-          ▼                   ▼
-       Allow/Warn           Block
-          │                   │
-          └─────────┬─────────┘
-                    ▼
-          Report / CI / Evidence
+What is actually inside this AI system?
+        ↓
+What evidence indicates risk?
+        ↓
+What is affected?
+        ↓
+How far can the problem propagate?
+        ↓
+Should this build be allowed, warned on, or blocked?
+        ↓
+Can the decision be reproduced and defended?
 ```
-
-The key architectural boundary is intentional: **relationship and graph context can enrich impact analysis without becoming the source of truth for deterministic risk scoring.**
-
-That makes graph backends optional and keeps the core engine independently testable.
 
 ---
 
-## Why AI-BOM Inspector is different
+## 🧠 The Core Idea
 
-### 🧠 AI assets are first-class
+AI systems aren't just packages.
 
-Models and artifacts are analyzed alongside normal software dependencies instead of being treated as opaque files.
+They're **packages + models + artifacts + runtimes + applications + relationships**.
 
-### 🎯 Deterministic by design
+AI-BOM Inspector treats those pieces as a connected security problem rather than isolated inventory.
 
-The core security decision does not depend on hosted LLM inference. The same inputs can produce a reproducible result.
+```text
+                    ┌──────────────────┐
+                    │    AI PROJECT     │
+                    └────────┬─────────┘
+                             │
+             ┌───────────────┼───────────────┐
+             ▼               ▼               ▼
+          SBOMs           MODELS          ARTIFACTS
+             │               │               │
+             └───────────────┼───────────────┘
+                             ▼
+                  ┌────────────────────┐
+                  │ DISCOVERY +        │
+                  │ NORMALIZATION      │
+                  └─────────┬──────────┘
+                            ▼
+                  ┌────────────────────┐
+                  │ EVIDENCE +         │
+                  │ RELATIONSHIPS      │
+                  └─────────┬──────────┘
+                            ▼
+                  ┌────────────────────┐
+                  │ DETERMINISTIC      │
+                  │ RISK ENGINE        │
+                  └─────────┬──────────┘
+                            ▼
+                  ┌────────────────────┐
+                  │ POLICY +           │
+                  │ ENFORCEMENT        │
+                  └─────────┬──────────┘
+                            ▼
+             ┌──────────────┼──────────────┐
+             ▼              ▼              ▼
+          ALLOW           WARN           BLOCK
+```
+
+The result isn't just a score.
+
+It's an **explainable security decision backed by evidence**.
+
+---
+
+## 🔥 Why It Gets Interesting
+
+### 🧬 AI assets are first-class
+
+Models and artifacts are analyzed alongside ordinary dependencies instead of being treated as opaque files.
+
+### 🎯 Deterministic security decisions
+
+The core result doesn't require hosted LLM inference. Same evidence in → reproducible decision out.
 
 ### 🔎 Evidence over guesswork
 
-Findings are designed to remain connected to the observations, identities, relationships, and evidence behind them.
+Findings are designed to remain traceable to the observations, identities, relationships, and evidence behind them.
 
-### 🕸️ Relationship-aware impact analysis
+### 🕸️ Relationship-aware security
 
-A vulnerability can be traced through a chain such as:
+A vulnerability can become a chain instead of a row in a spreadsheet:
 
 ```text
 CVE
@@ -104,155 +139,184 @@ Application
 Owner
 ```
 
-This turns an isolated vulnerability into an explainable **blast-radius problem**.
+That turns **"there is a vulnerability"** into **"here is the blast radius."**
 
 ### 🛡️ The scanner gets attacked too
 
-Security hardening is treated as part of the product rather than an afterthought. Confirmed weaknesses become regression tests and are used to strengthen the scanner itself.
+Security assumptions are challenged adversarially. Confirmed weaknesses become regression tests and hardening work instead of disappearing into a backlog.
 
 ---
 
-## What it analyzes
-
-- Python, JavaScript, Go, and Java dependencies
-- CycloneDX and SPDX SBOMs
-- AI model metadata and model references
-- Model artifacts and hashes
-- Safetensors and pickle-related security signals
-- Dependency pinning and version posture
-- Model freshness and provenance signals
-- License and governance posture
-- Vulnerability/advisory enrichment
-- Policy-as-code decisions
-- Organizational context such as criticality and data sensitivity
-
-## What it produces
-
-- Deterministic risk scores
-- Explainable findings
-- Policy decisions
-- JSON, Markdown, and HTML reports
-- SARIF / CI-oriented outputs
-- CycloneDX and SPDX exports
-- Evidence and attestation artifacts
-- Dependency and impact context
-- Scan-to-scan diffs
-
----
-
-## Graph reasoning
-
-AI-BOM Inspector includes a backend-neutral graph/context architecture for relationship-heavy security questions.
-
-A graph database such as **Memgraph** can be used where graph traversal provides measurable value, including:
+## 💀 What It Can See
 
 ```text
-"Which applications are affected by this vulnerability?"
-
-"Which models depend on this package?"
-
-"What is the common dependency between these findings?"
-
-"What is the blast radius of this AI supply-chain issue?"
+┌────────────────────────────────────────────┐
+│              AI SUPPLY CHAIN               │
+├────────────────────────────────────────────┤
+│                                            │
+│  📦 Dependencies                           │
+│  🧠 Models                                 │
+│  📄 SBOMs                                  │
+│  🧩 Artifacts                              │
+│  🔐 Integrity signals                      │
+│  ⚠️ Vulnerabilities                        │
+│  📜 Licenses                               │
+│  🏗️ Applications                           │
+│  👤 Ownership / criticality                │
+│  🔗 Relationships                           │
+│  📋 Policies                               │
+│                                            │
+└────────────────────────────────────────────┘
 ```
 
-The graph layer is deliberately separated from the deterministic risk engine so graph infrastructure can improve **context, traversal, and explanation** without silently changing the underlying security score.
+It covers dependency manifests, CycloneDX/SPDX SBOMs, model metadata, model artifacts, Safetensors and pickle-related security signals, provenance, licensing, advisory enrichment, organizational context, policy-as-code, and CI enforcement.
 
 ---
 
-## Reproducible proof
+## ⚔️ From Finding → Impact
 
-The repository contains a reproducible vulnerable-AI project designed to demonstrate the complete decision path:
+The interesting part isn't finding a vulnerable package.
+
+It's understanding what that package **means** inside an AI system.
 
 ```text
-Vulnerable AI project
+                VULNERABILITY
+                      │
+                      ▼
+                   PACKAGE
+                      │
+                      ▼
+                 FRAMEWORK
+                      │
+                      ▼
+                    MODEL
+                      │
+                      ▼
+                APPLICATION
+                      │
+                      ▼
+                    OWNER
+                      │
+                      ▼
+                 BLAST RADIUS
+```
+
+This is where inventory starts becoming **security intelligence**.
+
+---
+
+## 🧪 Proof, Not Marketing
+
+The repository contains a reproducible vulnerable-AI project that demonstrates the full decision path:
+
+```text
+Vulnerable AI Project
         ↓
-      Scan
+       Scan
         ↓
     Findings
         ↓
- Risk decision
+ Risk Decision
         ↓
-Policy evaluation
+Policy Evaluation
         ↓
-Evidence / report
+Evidence / Report
         ↓
-CI-style enforcement
+CI Enforcement
 ```
 
-Run it with:
+Run it:
 
 ```bash
 PYTHONPATH=src bash demo/golden-vulnerable-ai/run_demo.sh
 ```
 
-The goal is **claim → proof**, not a feature-list disguised as a security product.
+**Claim → reproduce → inspect → harden.**
 
 ---
 
-## Security model
+## 🔐 Security Philosophy
 
-The project explicitly distinguishes security concepts that are easy to blur together:
+The project deliberately keeps concepts separate that security tooling can easily blur:
 
-- **Integrity digest** ≠ **cryptographic signature**
-- **Self-consistent trust root** ≠ **externally trusted root**
-- **Missing evidence** ≠ **positive evidence**
-- **Canonical component identity** ≠ **name-only matching**
-- **Controlled policy failure** ≠ **silent exception**
+```text
+Integrity Digest       ≠ Cryptographic Signature
+Trust Root             ≠ External Trust
+Missing Evidence       ≠ Positive Evidence
+Component Name        ≠ Canonical Identity
+Policy Failure         ≠ Silent Exception
+```
 
-Those distinctions matter because the scanner itself sits inside the security boundary.
+Because when the scanner sits inside the security boundary, **the scanner itself has to be trustworthy.**
 
 ---
 
-## Offline-first
+## 🌐 Offline-First
 
-The default posture is local and privacy-preserving.
+Privacy isn't an add-on.
+
+The default posture is local:
 
 ```bash
 aibom scan --format json
 ```
 
-Online enrichment is opt-in when external advisory or model information is required. Local-only and safe-mode controls can be used when outbound requests must be prevented.
+External enrichment is opt-in. Local-only and safe-mode controls can prevent outbound requests when the environment requires it.
 
 ---
 
-## Built to evolve
+## 📊 What Comes Out
 
-AI-BOM Inspector is an actively evolving security-engineering project spanning:
+| Output | Purpose |
+|---|---|
+| 🎯 Risk score | Deterministic security posture |
+| 🔎 Findings | Explainable evidence |
+| 🧭 Impact context | Dependency / relationship reasoning |
+| 🚦 Policy decision | Allow / warn / block |
+| 📄 Reports | JSON / Markdown / HTML |
+| 🛠️ CI output | SARIF / automated enforcement |
+| 📦 Standards | CycloneDX / SPDX |
+| 🧾 Evidence | Audit and provenance artifacts |
+| 🔄 Diffing | Detect changes between scans |
+
+---
+
+## 🚀 The Bigger Direction
+
+AI-BOM Inspector is evolving around a simple question:
+
+> **What would AI supply-chain security look like if evidence, relationships, and deterministic decisions were treated as first-class primitives?**
+
+The architecture is designed to push toward deeper reasoning around:
 
 ```text
 AI Supply Chain
       │
-      ├── SBOM / BOM generation
+      ├── Asset discovery
       ├── Model security
       ├── Dependency intelligence
       ├── Evidence modeling
       ├── Deterministic risk
       ├── Policy enforcement
-      ├── Graph impact analysis
+      ├── Impact analysis
+      ├── Blast-radius reasoning
+      ├── Attack-path analysis
       └── CI / audit workflows
 ```
 
-The architecture is designed to support deeper application, ownership, blast-radius, and attack-path reasoning without sacrificing a deterministic security core.
-
 ---
 
-## Explore the project
+## 👁️ Explore the Experiment
 
-**Repository:** [MellyFinnese/AI-BOM-Inspector](https://github.com/MellyFinnese/AI-BOM-Inspector)
-
-**Architecture:** [`docs/ARCHITECTURE.md`](https://github.com/MellyFinnese/AI-BOM-Inspector/blob/main/docs/ARCHITECTURE.md)
-
-**Security validation:** [`docs/SECURITY_VALIDATION.md`](https://github.com/MellyFinnese/AI-BOM-Inspector/blob/main/docs/SECURITY_VALIDATION.md)
-
-**Scoring model:** [`docs/SCORING.md`](https://github.com/MellyFinnese/AI-BOM-Inspector/blob/main/docs/SCORING.md)
-
----
+<p align="center">
+  <a href="https://github.com/MellyFinnese/AI-BOM-Inspector"><img src="https://img.shields.io/badge/ENTER-AI--BOM%20INSPECTOR-7C3AED?style=for-the-badge&logo=github" /></a>
+</p>
 
 <div align="center">
 
-### Inspect. Explain. Prove. Enforce.
+### ⚡ Inspect. Explain. Prove. Enforce. ⚡
 
-AI-BOM Inspector is an experiment in what AI supply-chain security looks like when **evidence, relationships, and deterministic decisions** are treated as first-class engineering primitives.
+<strong>AI-BOM Inspector</strong><br/>
+An experiment in turning AI supply-chain inventory into security intelligence.
 
 </div>
